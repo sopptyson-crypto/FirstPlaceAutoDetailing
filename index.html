@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FirstPlace Auto Detailing | Calgary — In‑Shop & Mobile</title>
+  <meta name="description" content="Calgary interior & exterior auto detailing — in‑shop (SE) or mobile. Steam & shampoo, pet hair, salt stains. Call/Text 403‑606‑0095." />
+  <meta property="og:title" content="FirstPlace Auto Detailing — Calgary" />
+  <meta property="og:description" content="In‑Shop (SE) or Mobile • Steam & Shampoo • Same‑Week Spots • Call/Text 403‑606‑0095" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/cover.jpg" />
+  <meta name="theme-color" content="#AC1717" />
+  <style>
+    :root{
+      --brand:#AC1717; /* FirstPlace red */
+      --brand-ink:#8f1212;
+      --dark:#0f1114; --ink:#1f2937; --muted:#6b7280; --bg:#f6f7f8; --card:#ffffff;
+      --radius:16px; --shadow:0 10px 30px rgba(0,0,0,.08);
+    }
+    *{box-sizing:border-box} html,body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+    a{color:var(--brand);text-decoration:none}
+    .container{max-width:1100px;margin-inline:auto;padding:24px}
+    header.top{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid #eee}
+    .row{display:flex;align-items:center;gap:16px;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800}
+    .brand img.logo{height:42px;display:block}
+    .nav{display:flex;gap:18px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:999px;border:1px solid transparent;font-weight:700;cursor:pointer;transition:.2s;}
+    .btn.primary{background:var(--brand);color:#fff} .btn.primary:hover{background:var(--brand-ink)}
+    .btn.ghost{border-color:#ddd;color:var(--ink)} .btn.ghost:hover{border-color:var(--brand);color:var(--brand)}
+
+    .hero{padding:48px 0 24px;background:linear-gradient(180deg,#fff, #fafafa 65%)}
+    .hero h1{font-size:clamp(28px,5vw,44px);line-height:1.05;margin:0 0 12px}
+    .hero p{font-size:clamp(16px,2.4vw,19px);color:var(--muted);margin:0 0 16px}
+    .badges{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}
+    .badge{background:#fff;border:1px solid #eee;border-radius:999px;padding:8px 12px;font-weight:600;color:#222}
+
+    .cards{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+    .card{grid-column:span 12;background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px}
+    @media(min-width:900px){.card{grid-column:span 4}}
+    .card h3{margin:2px 0 8px;font-size:22px}
+    .price{font-weight:900;font-size:28px;color:var(--brand)}
+    .pill{display:inline-block;background:#ffe8ea;color:var(--brand);font-weight:800;border-radius:999px;padding:6px 10px;margin-bottom:8px}
+    ul.clean{margin:12px 0 0;padding-left:18px;color:#374151}
+
+    .add-ons{background:#fff;padding:14px 18px;border-radius:var(--radius);border:1px solid #eee}
+
+    .gallery{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+    .gallery img{width:100%;height:220px;object-fit:cover;border-radius:12px}
+    @media(min-width:900px){.gallery img{height:240px}}
+
+    .grid-2{display:grid;grid-template-columns:1fr;gap:20px}
+    @media(min-width:900px){.grid-2{grid-template-columns:1.2fr .8fr}}
+
+    .map{width:100%;height:300px;border:0;border-radius:12px}
+
+    footer{margin-top:30px;background:#0f1114;color:#e5e7eb}
+    footer .container{padding-block:30px}
+
+    .sticky-cta{position:fixed;bottom:14px;left:50%;transform:translateX(-50%);display:flex;gap:12px;z-index:60}
+    .sticky-cta .btn{box-shadow:0 14px 30px rgba(0,0,0,.18)}
+
+    .section-title{display:flex;align-items:center;gap:10px;margin:26px 0 12px}
+    .section-title .bar{width:20px;height:4px;background:var(--brand);border-radius:4px}
+
+    .muted{color:var(--muted)} .center{text-align:center} .nowrap{white-space:nowrap}
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="container row">
+      <div class="brand" aria-label="FirstPlace Auto Detailing">
+        <img class="logo" src="images/logo.png" alt="FirstPlace Auto Detailing" />
+      </div>
+      <nav class="nav">
+        <a href="#packages">Packages</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a class="btn primary" href="tel:+14036060095">Call 403‑606‑0095</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container grid-2" style="align-items:center;">
+      <div>
+        <h1>Calgary Interior Detailing — <span class="nowrap">In‑Shop (SE)</span> or Mobile</h1>
+        <p>Steam & Shampoo • Pet Hair • Salt Stains • Leather • Windows streak‑free. Same‑week openings.</p>
+        <div class="badges">
+          <span class="badge">⭐️⭐️⭐️⭐️⭐️ Local</span>
+          <span class="badge">Licensed & Insured</span>
+          <span class="badge">Card/Interac Accepted</span>
+        </div>
+        <div class="row" style="gap:10px;flex-wrap:wrap">
+          <a class="btn primary" href="#contact">Book In‑Shop or Mobile</a>
+          <a class="btn ghost" href="#packages">See Packages</a>
+        </div>
+        <p class="muted" style="margin-top:10px">Address: 2811 58 Ave SE • Calgary</p>
+      </div>
+      <div>
+        <img alt="Jaguar interior after detail" src="images/cover.jpg" style="width:100%;height:auto;border-radius:16px;box-shadow:var(--shadow)" />
+      </div>
+    </div>
+  </section>
+
+  <div class="container" id="packages">
+    <div class="section-title"><span class="bar"></span><h2 style="margin:0">Detailing Packages</h2></div>
+    <p class="muted">Transparent pricing. We’ll confirm final price on arrival based on size/condition.</p>
+
+    <div class="cards">
+      <article class="card" aria-label="Standard Detail">
+        <span class="pill">2–3 hours</span>
+        <h3>Standard Detail</h3>
+        <div class="price">$239</div>
+        <ul class="clean">
+          <li>Wheels & tires detailed</li>
+          <li>Door jambs cleaned</li>
+          <li>Pre‑soak & gentle hand wash with wax sealant</li>
+          <li>Full interior vacuum + wipe‑down</li>
+          <li>Floor mats pressure‑washed & dressed</li>
+          <li>Windows cleaned</li>
+        </ul>
+      </article>
+
+      <article class="card" aria-label="Premium Detail">
+        <span class="pill">Most Popular • 4–5 hours</span>
+        <h3>Premium Detail</h3>
+        <div class="price">$349</div>
+        <ul class="clean">
+          <li>Everything in <strong>Standard</strong></li>
+          <li>Dusting & wiping of all interior surfaces</li>
+          <li>Light shampoo spot treatment</li>
+          <li>Light salt‑stain removal</li>
+          <li>Interior dressing & leather conditioning</li>
+          <li>Interior scenting + windows</li>
+        </ul>
+      </article>
+
+      <article class="card" aria-label="Showroom Detail">
+        <span class="pill">8–10 hours</span>
+        <h3>Showroom Detail</h3>
+        <div class="price">$599</div>
+        <ul class="clean">
+          <li>Everything in <strong>Premium</strong></li>
+          <li>Multiple rounds of deep vacuum</li>
+          <li>Complete <strong>shampoo (carpets & upholstery)</strong></li>
+          <li>Engine bay detail & dress</li>
+          <li>Cracks & crevices fully cleaned</li>
+          <li>Final interior dressing & windows</li>
+        </ul>
+      </article>
+    </div>
+
+    <div style="margin-top:18px" class="add-ons">
+      <strong>Add‑Ons:</strong>
+      Pet hair removal • Road tar/tree sap/sticker removal • Complete shampoo • Headlight restoration • Engine bay detail • Iron decon & clay bar
+    </div>
+  </div>
+
+  <div class="container" id="gallery">
+    <div class="section-title"><span class="bar"></span><h2 style="margin:0">Before / After</h2></div>
+    <div class="gallery">
+      <img src="images/ba1.jpg" alt="Before/After interior" />
+      <img src="images/ba2.jpg" alt="Foam bath" />
+      <img src="images/ba3.jpg" alt="Wheels cleaned" />
+      <img src="images/ba4.jpg" alt="Interior finished" />
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section-title"><span class="bar"></span><h2 style="margin:0">Find Us</h2></div>
+    <div class="grid-2">
+      <div>
+        <p><strong>Shop:</strong> 2811 58 Ave SE, Calgary • <a href="tel:+14036060095">403‑606‑0095</a></p>
+        <p class="muted">Open by appointment. In‑Shop or Mobile service to nearby neighborhoods.</p>
+        <div class="badges"><span class="badge">Same‑Week Openings</span><span class="badge">We Come To You</span></div>
+      </div>
+      <iframe class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=2811%2058%20Ave%20SE%20Calgary&output=embed" title="Map to 2811 58 Ave SE, Calgary"></iframe>
+    </div>
+  </div>
+
+  <div class="container" id="contact">
+    <div class="section-title"><span class="bar"></span><h2 style="margin:0">Book Now</h2></div>
+    <div class="grid-2">
+      <form id="bookForm" class="card" onsubmit="return false" aria-label="Booking form">
+        <div class="row" style="gap:12px;flex-wrap:wrap">
+          <input class="field" name="name" placeholder="Your name" required style="flex:1;min-width:220px;padding:12px;border-radius:12px;border:1px solid #e5e7eb" />
+          <input class="field" name="phone" placeholder="Phone" required pattern="[0-9+\-() ]+" style="flex:1;min-width:220px;padding:12px;border-radius:12px;border:1px solid #e5e7eb" />
+        </div>
+        <div class="row" style="gap:12px;flex-wrap:wrap;margin-top:10px">
+          <input class="field" name="city" placeholder="City / Community" style="flex:1;min-width:220px;padding:12px;border-radius:12px;border:1px solid #e5e7eb" />
+          <input class="field" name="vehicle" placeholder="Vehicle (e.g., 2018 F‑Type)" style="flex:1;min-width:220px;padding:12px;border-radius:12px;border:1px solid #e5e7eb" />
+        </div>
+        <div class="row" style="gap:12px;flex-wrap:wrap;margin-top:10px">
+          <select name="package" class="field" style="flex:1;min-width:220px;padding:12px;border-radius:12px;border:1px solid #e5e7eb">
+            <option value="Standard $239">Standard $239 (2–3h)</option>
+            <option value="Premium $349">Premium $349 (4–5h)</option>
+            <option value="Showroom $599">Showroom $599 (8–10h)</option>
+            <option value="Unsure — recommend">Unsure — recommend</option>
+          </select>
+          <input class="field" name="time" placeholder="Preferred day/time" style="flex:1;min-width:220px;padding:12px;border-radius:12px;border:1px solid #e5e7eb" />
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px">
+          <button class="btn primary" onclick="sendSMS()">Text details</button>
+          <a class="btn ghost" href="tel:+14036060095">Call 403‑606‑0095</a>
+        </div>
+        <p class="muted" style="margin:10px 0 0">By texting, you agree we can reply to schedule your appointment.</p>
+      </form>
+
+      <div class="card" aria-label="What to expect">
+        <h3>What to expect</h3>
+        <ul class="clean">
+          <li>We confirm your appointment and whether you want <strong>In‑Shop</strong> or <strong>Mobile</strong>.</li>
+          <li>We’ll recommend the lowest package that still gets it spotless.</li>
+          <li>Secure payment: card/Interac accepted.</li>
+        </ul>
+        <p class="muted">Questions? Email <em>you@yourdomain.com</em> (replace in code) or call anytime.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sticky-cta">
+    <a class="btn primary" href="tel:+14036060095">Call</a>
+    <a class="btn ghost" href="#contact">Book</a>
+  </div>
+
+  <footer>
+    <div class="container row" style="align-items:flex-start">
+      <div>
+        <strong>FirstPlace Auto Detailing</strong><br/>
+        2811 58 Ave SE, Calgary • <a href="tel:+14036060095" style="color:#fff">403‑606‑0095</a>
+      </div>
+      <div class="muted">© <span id="yr"></span> FirstPlace. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"AutoDetailing",
+    "name":"FirstPlace Auto Detailing",
+    "image":"images/cover.jpg",
+    "telephone":"+1-403-606-0095",
+    "address":{"@type":"PostalAddress","streetAddress":"2811 58 Ave SE","addressLocality":"Calgary","addressRegion":"AB","postalCode":"","addressCountry":"CA"},
+    "areaServed":"Calgary",
+    "url":"https://www.example.com"
+  }
+  </script>
+
+  <script>
+    const yr=document.getElementById('yr'); yr.textContent=new Date().getFullYear();
+    function smsLink(phone, body){
+      const enc=encodeURIComponent(body);
+      const iOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+      return `sms:${phone}${iOS?"&":"?"}body=${enc}`;
+    }
+    function sendSMS(){
+      const f=document.getElementById('bookForm');
+      const data={
+        name:f.name.value.trim(), phone:f.phone.value.trim(), city:f.city.value.trim(),
+        vehicle:f.vehicle.value.trim(), pkg:f.package.value, time:f.time.value.trim()
+      };
+      const body=`Booking request:%0AName: ${data.name}%0APhone: ${data.phone}%0ACity: ${data.city}%0AVehicle: ${data.vehicle}%0APackage: ${data.pkg}%0APreferred: ${data.time}`;
+      const link=smsLink('+14036060095', decodeURIComponent(body));
+      window.location.href=link;
+    }
+  </script>
+</body>
+</html>
